@@ -13,7 +13,7 @@ header {
     height: 100px;
 }
 
-h1 {
+header h1 {
     color: #E53772;
     text-align: center;
     padding-top: 25px;
@@ -27,4 +27,30 @@ h1 {
 
 .container p {
     text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.team-tag {
+    background-color: #000;
+    height: 90px;
+    width: calc(100% / 3);
+    border: 1px solid pink;
+    margin-top: 40px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: left;
+}
+
+img {
+    height: 100%;
 }
